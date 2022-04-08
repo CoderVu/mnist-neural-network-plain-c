@@ -10,7 +10,7 @@
 #define MNIST_IMAGE_SIZE MNIST_IMAGE_WIDTH * MNIST_IMAGE_HEIGHT
 #define MNIST_LABELS 10
 
-typedef struct mnist_label_file_header_t_ {
+typedef struct mnist_label_file_header_t_ { 
     uint32_t magic_number;
     uint32_t number_of_labels;
 } __attribute__((packed)) mnist_label_file_header_t;
